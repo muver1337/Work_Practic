@@ -15,8 +15,11 @@ async function fetchData() {
         let lastName = data.person.lastName;
         let firstName = data.person.firstName;
         let itemCount = data.productsOrder.count;
+
         console.log(`${lastName} ${firstName} купил ${itemCount} штук товаров`);
     } catch (error) {
         console.error('Ошибка при выполнении fetch:', error.message);
     }
 }
+
+fetchData();
