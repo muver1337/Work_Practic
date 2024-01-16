@@ -16,3 +16,4 @@ let uniqueString = Array.from(unique).join('');
 
 // Вывод в консоль
 console.log("Task 1 :", uniqueString);
+
