@@ -10,7 +10,7 @@ async function fetchData() {
         let street = data.address.street;
         let house = data.address.house;
 
-        console.log("Task 4 :",`Город: ${city} Улица: ${street} Дом: ${house}`);
+        console.log("Task 4:",`Город: ${city} Улица: ${street} Дом: ${house}`);
 
         let lastName = data.person.lastName;
         let firstName = data.person.firstName;
