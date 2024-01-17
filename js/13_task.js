@@ -15,7 +15,7 @@ class Worker2 {
     }
 }
 
-let worker2 = new Worker2("Михаил", "Михаилов", 1600, 31);
+let worker2 = new Worker2("Анатолий", "Анатольев", 2000, 28);
 
 console.log("Task 13:", worker2)
 console.log("Task 13: Зарплата -", worker2.getSalary())
