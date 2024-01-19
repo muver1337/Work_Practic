@@ -11,7 +11,7 @@ class Worker {
     }
 }
 
-let worker = new Worker("Михаил", "Михаилов", 1600, 31);
+const worker = new Worker("Михаил", "Михаилов", 1600, 31);
 
 console.log("Task 12:", worker)
 console.log("Task 12: Зарплата -", worker.getSalary())

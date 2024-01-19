@@ -29,7 +29,7 @@ class Worker3 {
     }
 }
 
-let worker3 = new Worker3("Анатолий", "Анатольев", 2000, 28);
+const worker3 = new Worker3("Анатолий", "Анатольев", 2000, 28);
 worker3.setRate(2700);
 worker3.setDays(31);
 
